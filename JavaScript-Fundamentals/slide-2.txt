@@ -1,0 +1,44 @@
+------------------------------------------------------------------------------------------
+LET, CONST and VAR ; ( the different ways of declaring a Variable in Js )
+------------------------------------------------------------------------------------------
+
+LET : Value can be changed ( mutable ), it's a block scoped.
+
+CONST : { Value can't be changed ( immutable ) }--> applies only for Primitive  not to "Reference" types.
+     *  We can't declare empty CONST Variables
+
+VAR : 'lly to "LET", but LET is block scoped and VAR is function scoped.
+
+-------------------------------------------------------------------------------------------
+Basic Operators 
+-------------------------------------------------------------------------------------------
+--> ( Operators:- which allows us to transform Values or combine multiple Values )
+    ex, -> Math operators
+        -> Assignment operators
+        -> Comparison operators
+        -> 
+
+--> Operators Precedence :
+    -> The order in which operators are executed.
+    -> Check here for Precedence order ( Google this: mdn Operators Precedence )
+
+---------------------------------------------------------------------------------------------
+Template Literal
+---------------------------------------------------------------------------------------------
+
+-> Template Literal,
+    - it's ES6 feature,
+    - it can assemble multiple pieces into one final String by using backticks ( ` ` ).
+    ex, before Template Literal                                             |   with Template Literal,
+
+        const name = "Praveen";                                             |   console.log(`My name is ${ name }, and my age is ${ age }`);
+        const age = 18;                                                     |
+        console.log("My name is " + name + "and my age is " + age );        |
+
+
+
+---------------------------------------------------------------------------------------------------
+Taking Decisions: if/else statments, switch statment, conditional( Ternary ) operator are same as in Java
+---------------------------------------------------------------------------------------------------
+->Operator produces a value, so Ternary operator is a Expression.
+

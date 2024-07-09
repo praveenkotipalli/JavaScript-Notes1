@@ -1,0 +1,44 @@
+
+---------------------------------------------------------------------------------------------------
+Type Conversion and Type Coercion 
+---------------------------------------------------------------------------------------------------
+->Type Conversion,
+    we manually convert from one type to another ( explicit )
+    ex, Number('23');
+        String(46);
+->Type Coercion,
+    JavaScript automatically converts types behind the scenes ( implicit )
+    ex, 
+        const name = "Praveen";
+        const birthYear = 2005;
+        console.log(`My name is ${ name }, and my age is ${ 2024 - birthYear }`) 
+        // here 2024 - birthYear is no. but it will be converted into String by JavaScript. 
+        
+
+----------------------------------------------------------------------------------------------------
+Truthy and Falsy values ( implicit )
+----------------------------------------------------------------------------------------------------
+--> Falsy values are values that are not exactly false, but will become false when we try to convert them into a boolean.
+--> In Js there are only "5" Falsy values 
+        -> 0 
+        -> " "
+        -> Undefiened
+        -> Null
+        -> NaN
+--> And everything else are called as Truthy values.
+ex, 
+    console.log(Boolean{}); //true
+    // {} empty object ( not a falsy value) hence the output is true
+
+-----------------------------------------------------------------------------------------------------
+Equality Operators : == Vs. ===
+-----------------------------------------------------------------------------------------------------
+  ==, 
+        loose equality operator, it does Type Coercion
+        ex, '18' == 18 // true
+             18  == 18 // true
+  ===,
+        strict equality operator, it doesn't perform Type Coercion
+        ex, '18' === 18 // false
+             18  === 18 // true
+

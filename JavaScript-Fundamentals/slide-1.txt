@@ -1,0 +1,33 @@
+
+Values : It is a smallest unit of information in JavaScript.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Variable : Used to store the data of the values ( a box in which we can store values ).
+    -> Rules for naming a Variable :
+            Variables in Js are named according to camelCase. It only contains no., underscores, letters, dollar sign, and not start with a number and also not use a Js keyword as Js variable. And don't write first letter capital and we write all letters in capital when it is a CONSTANT.
+    -> with the help of Variables it's easy to manipulate the data/value.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data type : In Js, Values are either an Object ( ex, let hi { name: 'Praveen'; } ) or a Primitive ( ex, let age = 19; )
+    -> The 7 Primitive Data types in Js :
+        1. Number
+        2. String
+        3. Boolean
+        4. Undefiened
+        5. Null
+        6. Symbol (ES2015)
+        7. BigInt (ES2020)
+        //8 .Object ( non-primitive data type)
+
+ *  JavaScript has dynamic typing ( We don't have to manually define the Data type of Values stored in a Variable. Another advantage is later in our code, we can assign a new value with a different Data type to the same Variable )
+ *  Here Values that has a type, not the Variables, so Variables simply store store values that have a type. 
+
+--> to check the type of a Variable we use typeOf 
+        ex, const age = 30;
+            console.log (typeOf age); // number
+
+ *  console.log() // it a bridge b/w code page and browsers console, you can think as a was a print statment in Js.
+
+--> here commenting is 'lly to java, //....( single line comment ) or /*.....*/ ( multi-line comment )
+
+
